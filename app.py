@@ -43,12 +43,12 @@ with st.sidebar:
     T = THEMES[theme]
     
     st.markdown("---")
-    col1, col2, col3 = st.columns([2, 1, 2])
+    col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
         st.image("assets/sceau_togo.png", width=90)
     st.markdown(
         f"<div style='text-align: center;'><strong>{t('republic_name', lang)}</strong></div>", 
-        unsafe_allowed_html=True
+        unsafe_allow_html=True
     )
     # st.image("assets/sceau_togo.png", width=90)
     # st.markdown(f"**{t('republic_name', lang)}**")
