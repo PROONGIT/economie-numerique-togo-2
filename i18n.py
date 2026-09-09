@@ -3,6 +3,8 @@
 
 TR = {
     # --- Général / navigation ---
+    "republic_name": {"fr": "République Togolaise",
+                      "en": "Republic of Togo"},
     "app_title": {"fr": "Accès aux Télécoms & Services Numériques — Togo",
                   "en": "Telecom & Digital Services Access — Togo"},
     "app_subtitle": {"fr": "Diagnostic ouvert des infrastructures télécoms et priorités d'extension de la connectivité",
