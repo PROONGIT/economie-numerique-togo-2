@@ -32,7 +32,7 @@ TR = {
     "source_note": {"fr": "Sources : géodonnées ouvertes agences/datacenters/agents mobile money (2026) ; population RGPH-5, INSEED, résultats définitifs, novembre 2022.",
                      "en": "Sources: open geodata on agencies/datacenters/mobile money agents (2026); population from RGPH-5 census, INSEED, final results, November 2022."},
     "author": {"fr": "Auteur : AZIAGBEDO KOKOU SODJINE, Ingénieur en Sciences informatiques, Sécurité informatique - Data & IA",
-                "en": "Author: AZIAGBEDO KOKOU SODJINE, Engineer in Computer Science, IT Security - Data & AI"}
+                "en": "Author: AZIAGBEDO KOKOU SODJINE, Engineer in Computer Science, IT Security - Data & AI"},
     "how_to_read": {"fr": "❓ Comment lire ce graphique", "en": "❓ How to read this chart"},
     "what_it_is": {"fr": "De quoi il s'agit", "en": "What this is"},
     "what_it_shows": {"fr": "Ce que ça montre", "en": "What it shows"},
