@@ -42,9 +42,9 @@ with st.sidebar:
     theme = st.session_state.theme
     T = THEMES[theme]
     
-    st.markdown("---")
-    st.image("assets/sceau_togo.png", width=90)
-    st.markdown(f"**{t('republic_name', lang)}**")
+    # st.markdown("---")
+    # st.image("assets/sceau_togo.png", width=90)
+    # st.markdown(f"**{t('republic_name', lang)}**")
     # st.markdown("### République Togolaise" if st.session_state.lang == "fr" else "### Republic of Togo")
     st.markdown("---")
 
