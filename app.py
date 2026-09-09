@@ -78,7 +78,6 @@ with st.sidebar:
     st.caption(t("source_note", lang))
 
     st.caption(t("author", lang))
-    )
 
 st.markdown(inject_css(theme), unsafe_allow_html=True)
 
