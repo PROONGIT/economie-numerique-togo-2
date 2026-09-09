@@ -33,7 +33,8 @@ with open("assets/sceau_togo.png", "rb") as _f:
 # ==================== SIDEBAR ====================
 with st.sidebar:
     st.image("assets/sceau_togo.png", width=90)
-    st.markdown("### République Togolaise" if st.session_state.lang == "fr" else "### Republic of Togo")
+    st.markdown(f"**{t('republic_name', lang)}**")
+    # st.markdown("### République Togolaise" if st.session_state.lang == "fr" else "### Republic of Togo")
     st.markdown("---")
 
     lang_is_en = st.toggle("🇫🇷 FR  ⇄  🇬🇧 EN", value=(st.session_state.lang == "en"), key="lang_toggle")
