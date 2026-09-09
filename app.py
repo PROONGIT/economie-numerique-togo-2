@@ -32,11 +32,6 @@ with open("assets/sceau_togo.png", "rb") as _f:
 
 # ==================== SIDEBAR ====================
 with st.sidebar:
-    st.image("assets/sceau_togo.png", width=90)
-    st.markdown(f"**{t('republic_name', lang)}**")
-    # st.markdown("### République Togolaise" if st.session_state.lang == "fr" else "### Republic of Togo")
-    st.markdown("---")
-
     lang_is_en = st.toggle("🇫🇷 FR  ⇄  🇬🇧 EN", value=(st.session_state.lang == "en"), key="lang_toggle")
     st.session_state.lang = "en" if lang_is_en else "fr"
     lang = st.session_state.lang
@@ -46,6 +41,11 @@ with st.sidebar:
     st.session_state.theme = "sombre" if theme_is_dark else "clair"
     theme = st.session_state.theme
     T = THEMES[theme]
+    
+    st.image("assets/sceau_togo.png", width=90)
+    st.markdown(f"**{t('republic_name', lang)}**")
+    # st.markdown("### République Togolaise" if st.session_state.lang == "fr" else "### Republic of Togo")
+    st.markdown("---")
 
     st.markdown("---")
     st.markdown(f"**{t('nav_title', lang)}**")
