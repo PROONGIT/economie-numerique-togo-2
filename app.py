@@ -42,8 +42,8 @@ with st.sidebar:
     theme = st.session_state.theme
     T = THEMES[theme]
     
-    st.markdown("---")
-    col1, col2, col3 = st.columns([2, 3, 1])
+    # st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
     with col2:
         st.image("assets/sceau_togo.png", width=90)
     st.markdown(
