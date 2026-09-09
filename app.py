@@ -42,7 +42,14 @@ with st.sidebar:
     theme = st.session_state.theme
     T = THEMES[theme]
     
-    # st.markdown("---")
+    st.markdown("---")
+    col1, col2, col3 = st.columns([2, 1, 2])
+    with col2:
+        st.image("assets/sceau_togo.png", width=90)
+    st.markdown(
+        f"<div style='text-align: center;'><strong>{t('republic_name', lang)}</strong></div>", 
+        unsafe_allowed_html=True
+    )
     # st.image("assets/sceau_togo.png", width=90)
     # st.markdown(f"**{t('republic_name', lang)}**")
     # st.markdown("### République Togolaise" if st.session_state.lang == "fr" else "### Republic of Togo")
