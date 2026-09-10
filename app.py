@@ -174,7 +174,7 @@ def analysis_box(md_text):
 if page == "overview":
     header(t("app_title", lang), t("app_subtitle", lang))
     st.markdown(t("ov_welcome", lang))
-    st.caption("ℹ️ " + ("Ces chiffres sont nationaux et ne varient pas avec les filtres — utilisez les autres pages pour explorer par région/opérateur/granularité." if lang == "fr" else "These figures are national totals and do not change with the filters — use the other pages to explore by region/operator/granularity."))
+    st.caption("ℹ️ " + ("Les chiffres ci-dessous sont nationaux et ne varient pas avec les filtres — utilisez les autres pages pour explorer par région/opérateur/granularité." if lang == "fr" else "The numbers below are national totals and do not change with the filters — use the other pages to explore by region/operator/granularity."))
     st.markdown("###")
 
     c1, c2, c3, c4 = st.columns(4)
