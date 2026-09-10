@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import base64
+import re
 
 from i18n import t
 from theme import THEMES, inject_css
@@ -119,7 +120,10 @@ REGION_COLORS = {"Maritime": "#006A4E", "Plateaux": "#FFCE00", "Centrale": "#D21
 
 PLOT_KW = dict(template=T["plot_template"], paper_bgcolor=T["bg"], plot_bgcolor=T["bg"], font_color=T["text"])
 
-
+def md_to_html(text):
+    # Remplace **texte** par <b>texte</b>
+    return re.sub(r"\*\*(.*?)\*\*", r"<b>\1</b>", text)
+    
 def region_context_traces():
     """Traces de contour de région (enveloppe convexe) à insérer en fond de carte —
     calculées à partir de nos propres données, aucune dépendance réseau/fichier externe."""
@@ -167,7 +171,8 @@ def how_to_read(what, shows, source=None):
 
 
 def analysis_box(md_text):
-    st.markdown(f'<div class="insight-card">{md_text}</div>', unsafe_allow_html=True)
+    html_text = md_to_html(md_text)
+    st.markdown(f'<div class="insight-card">{html_text}</div>', unsafe_allow_html=True)
 
 
 # ==================== PAGE: OVERVIEW ====================
