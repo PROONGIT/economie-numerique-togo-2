@@ -97,7 +97,7 @@ TR = {
     "coverage_title": {"fr": "Couverture réseau et zones blanches (indicateur proxy)", "en": "Network coverage and dead zones (proxy indicator)"},
     "coverage_disclaimer": {"fr": "⚠️ **Note méthodologique** : aucune donnée brute de couverture radio cellulaire (2G/3G/4G) n'est disponible en open data pour ce challenge. Cet onglet construit un **indicateur proxy** de couverture, fondé sur la présence physique d'agences et d'agents mobile money par canton — l'absence totale de point de service dans un canton est un signal de risque d'exclusion numérique, mais ne prouve pas l'absence de signal radio.",
                             "en": "⚠️ **Methodological note**: no raw cellular radio coverage data (2G/3G/4G) is available as open data for this challenge. This tab builds a **proxy indicator** of coverage, based on the physical presence of agencies and mobile money agents per canton — a canton with no service point at all is a signal of digital exclusion risk, but does not prove the absence of radio signal."},
-    "coverage_kpi_cantons": {"fr": "Cantons sans aucune agence opérateur", "en": "Cantons with no operator agency"},
+    "coverage_kpi_cantons": {"fr": "{level} sans aucune agence opérateur", "en": "{level} with no operator agency"},
     "coverage_kpi_mm_pct": {"fr": "Cantons couverts par au moins 1 agent mobile money", "en": "Cantons covered by at least 1 mobile money agent"},
     "coverage_map_title": {"fr": "Cartographie de la couverture suivant les points mobile money", "en": "Mapping of the coverage related to mobile money points of sale"},
     "coverage_how_what": {"fr": "Carte à points colorés selon le nombre d'agents mobile money (proxy de présence numérique).",
