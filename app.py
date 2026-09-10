@@ -171,8 +171,8 @@ def how_to_read(what, shows, source=None):
 
 
 def analysis_box(md_text):
-    # html_text = md_to_html(md_text)
-    st.markdown(f'<div class="insight-card">{md_text}</div>', unsafe_allow_html=True)
+    html_text = md_to_html(md_text)
+    st.markdown(f'<div class="insight-card">{html_text}</div>', unsafe_allow_html=True)
 
 
 # ==================== PAGE: OVERVIEW ====================
