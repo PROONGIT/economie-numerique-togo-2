@@ -342,7 +342,8 @@ elif page == "coverage":
     pct_covered = round((geo_f["nb_agents_mm"] > 0).sum() / n_units * 100) if n_units else 0
 
     c1, c2 = st.columns(2)
-    kpi_card(c1, f"{n_zero_ag} / {n_units}", t("coverage_kpi_gran", lang))
+    kpi_card(c1, f"{n_zero_ag} / {n_units}", t("coverage_kpi_gran", lang).format(
+        level=GRAN_LABEL.lower())
     kpi_card(c2, f"{pct_covered}%", t("coverage_kpi_mm_pct", lang))
 
     st.markdown("###")
