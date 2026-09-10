@@ -179,7 +179,7 @@ TR = {
         "en": "**Current selection analysis** — at **{level}** granularity, **{pct_covered}%** of the {n_units} selected units have at least one mobile money agent, and **{n_zero_ag} out of {n_units} units have no** physical operator agency at all. **Objective 4**: assess network coverage and identify the most fragile areas (proxy, in the absence of open radio data).",
     },
 
-    "footer_note": {"fr": "Tableau de bord réalisé dans le cadre du challenge open data — République Togolaise.", "en": "Dashboard produced for the open data challenge — Republic of Togo."},
+    "footer_note": {"fr": "Tableau de bord réalisé dans le cadre du challenge Economie numérique | Défi 1 — République Togolaise, Septembre 2026.", "en": "Dashboard produced in the context of the challenge Digital Economy | Challenge 1 — Republic of Togo, September 2026."},
 }
 
 
