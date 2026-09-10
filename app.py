@@ -195,7 +195,8 @@ if page == "overview":
     st.markdown("###")
     st.subheader(t("ov_findings_title", lang))
     for k in ["ov_f1", "ov_f2", "ov_f3", "ov_f4", "ov_f5"]:
-        st.markdown(f'<div class="insight-card">{t(k, lang)}</div>', unsafe_allow_html=True)
+        h = md_to_html(k)
+        st.markdown(f'<div class="insight-card">{t(h, lang)}</div>', unsafe_allow_html=True)
 
 # ==================== PAGE: MAP (agences + datacenters) ====================
 elif page == "map":
