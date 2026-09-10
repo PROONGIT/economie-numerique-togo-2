@@ -171,8 +171,8 @@ def how_to_read(what, shows, source=None):
 
 
 def analysis_box(md_text):
-    html_text = md_to_html(md_text)
-    st.markdown(f'<div class="insight-card">{html_text}</div>', unsafe_allow_html=True)
+    # html_text = md_to_html(md_text)
+    st.markdown(f'<div class="insight-card">{md_text}</div>', unsafe_allow_html=True)
 
 
 # ==================== PAGE: OVERVIEW ====================
@@ -195,8 +195,7 @@ if page == "overview":
     st.markdown("###")
     st.subheader(t("ov_findings_title", lang))
     for k in ["ov_f1", "ov_f2", "ov_f3", "ov_f4", "ov_f5"]:
-        h = md_to_html(k)
-        st.markdown(f'<div class="insight-card">{t(h, lang)}</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="insight-card">{t(k, lang)}</div>', unsafe_allow_html=True)
 
 # ==================== PAGE: MAP (agences + datacenters) ====================
 elif page == "map":
