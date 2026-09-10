@@ -40,8 +40,8 @@ TR = {
     "finding": {"fr": "📍 Constat", "en": "📍 Finding"},
 
     # --- Overview ---
-    "ov_welcome": {"fr": "Ce tableau de bord dresse un diagnostic de l'accès aux télécommunications et aux services numériques au Togo, à partir des géodonnées ouvertes sur les agences opérateurs, les datacenters, les agents mobile money et la population par préfecture (RGPH-5, 2022). Utilisez le menu à gauche pour naviguer entre les analyses.",
-                    "en": "This dashboard diagnoses access to telecommunications and digital services in Togo, based on open geodata on operator agencies, datacenters, mobile money agents and population by prefecture (RGPH-5, 2022). Use the menu on the left to navigate between analyses."},
+    "ov_welcome": {"fr": "Ce tableau de bord dresse un diagnostic de l'accès aux télécommunications et aux services numériques au Togo, à partir des géodonnées ouvertes sur les agences opérateurs, les datacenters, les agents mobile money et la population par préfecture (RGPH-5, 2022). Utilisez le menu à gauche pour naviguer entre les analyses et scruter par région/opérateur/granularité.",
+                    "en": "This dashboard diagnoses access to telecommunications and digital services in Togo, based on open geodata on operator agencies, datacenters, mobile money agents and population by prefecture (RGPH-5, 2022). Use the menu on the left to navigate between analyses and scrutinize by region/operator/granularity."},
     "kpi_population": {"fr": "Population totale (RGPH-5)", "en": "Total population (census)"},
     "kpi_agences": {"fr": "Agences Moov + Togocom", "en": "Moov + Togocom agencies"},
     "kpi_datacenters": {"fr": "Datacenters", "en": "Datacenters"},
