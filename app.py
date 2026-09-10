@@ -198,22 +198,22 @@ elif page == "map":
     st.markdown(t("map_intro", lang))
 
     st.markdown(f"#### 🗺️ {t('map_title', lang)}")
-    #if ag_f.empty and dc_f.empty:
-        # st.warning(t("all", lang))
-    # else:
-    fig = go.Figure()
-    for op, color in [("Moov", OP_COLORS["Moov"]), ("Togocom", OP_COLORS["Togocom"])]:
-        d = ag_f[ag_f["operateur"] == op]
-        fig.add_trace(go.Scattermap(lat=d["lat"], lon=d["lon"], mode="markers",
-                                     marker=dict(size=9, color=color), name=op,
-                                     text=d["nom"], hoverinfo="text"))
-    fig.add_trace(go.Scattermap(lat=datacenters["lat"], lon=datacenters["lon"], mode="markers",
-                                 marker=dict(size=16, color=OP_COLORS["Datacenter"], symbol="star"),
-                                 name="Datacenter", text=datacenters["nom"], hoverinfo="text"))
-    fig.update_layout(map=dict(style=T["map_style"], center=dict(lat=8.6, lon=1.0), zoom=6.2),
-                       height=560, margin=dict(l=0, r=0, t=0, b=0), **PLOT_KW,
-                       legend=dict(orientation="h", y=1.02))
-    st.plotly_chart(fig, width='stretch')
+    if ag_f.empty and dc_f.empty:
+        st.warning(t("all", lang))
+    else:
+        fig = go.Figure()
+        for op, color in [("Moov", OP_COLORS["Moov"]), ("Togocom", OP_COLORS["Togocom"])]:
+            d = ag_f[ag_f["operateur"] == op]
+            fig.add_trace(go.Scattermap(lat=d["lat"], lon=d["lon"], mode="markers",
+                                         marker=dict(size=9, color=color), name=op,
+                                         text=d["nom"], hoverinfo="text"))
+        fig.add_trace(go.Scattermap(lat=datacenters["lat"], lon=datacenters["lon"], mode="markers",
+                                     marker=dict(size=16, color=OP_COLORS["Datacenter"], symbol="star"),
+                                     name="Datacenter", text=datacenters["nom"], hoverinfo="text"))
+        fig.update_layout(map=dict(style=T["map_style"], center=dict(lat=8.6, lon=1.0), zoom=6.2),
+                           height=560, margin=dict(l=0, r=0, t=0, b=0), **PLOT_KW,
+                           legend=dict(orientation="h", y=1.02))
+        st.plotly_chart(fig, width='stretch')
     how_to_read(t("map_how_what", lang), t("map_how_shows", lang))
 
     # ---- Analyse dynamique liée à l'objectif 1 ----
