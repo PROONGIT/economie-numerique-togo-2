@@ -233,7 +233,7 @@ elif page == "map":
     analysis_box(t("map_dynamic_insight", lang).format(
         regions=REGIONS_LABEL, ops=OPS_LABEL, nb_ag=nb_ag, nb_moov=nb_moov, nb_togocom=nb_togocom,
         nb_dc=nb_dc, n_units=n_units, level=GRAN_LABEL.lower(), concentration=concentration,
-    ), unsafe_allow_html=False)
+    ))
 
     st.markdown("###")
     st.subheader(t("table_title_dynamic", lang).format(level=GRAN_LABEL))
