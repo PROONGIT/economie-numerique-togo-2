@@ -99,9 +99,9 @@ TR = {
                             "en": "⚠️ **Methodological note**: no raw cellular radio coverage data (2G/3G/4G) is available as open data for this challenge. This tab builds a **proxy indicator** of coverage, based on the physical presence of agencies and mobile money agents per canton — a canton with no service point at all is a signal of digital exclusion risk, but does not prove the absence of radio signal."},
     "coverage_kpi_cantons": {"fr": "Cantons sans aucune agence opérateur", "en": "Cantons with no operator agency"},
     "coverage_kpi_mm_pct": {"fr": "Cantons couverts par au moins 1 agent mobile money", "en": "Cantons covered by at least 1 mobile money agent"},
-    "coverage_map_title": {"fr": "Cartographie des points mobile money", "en": "Mapping of mobile money points of sale"},
-    "coverage_how_what": {"fr": "Carte à points, un point par canton positionné sur son centroïde d'activité, coloré selon le nombre d'agents mobile money (proxy de présence numérique).",
-                           "en": "Point map, one point per canton positioned at its activity centroid, colored by the number of mobile money agents (digital presence proxy)."},
+    "coverage_map_title": {"fr": "Cartographie de la couverture suivant les points mobile money", "en": "Mapping of the coverage related to mobile money points of sale"},
+    "coverage_how_what": {"fr": "Carte à points colorés selon le nombre d'agents mobile money (proxy de présence numérique).",
+                           "en": "Map of points colored according to the number of mobile money agents (digital presence proxy)."},
     "coverage_how_shows": {"fr": "Les cantons en rouge/orange (faible nombre d'agents) sont les zones les plus fragiles à surveiller en priorité pour une extension de couverture réelle. Explorer avec les différents niveaux de granularité.",
                             "en": "Cantons in red/orange (low agent count) are the most fragile areas to prioritize for actual coverage expansion. Explore with the various levels of granularity."},
 
