@@ -368,7 +368,7 @@ elif page == "coverage":
         namecol = LEVEL_COLS[sel_gran][-1]
     
         # Création de la figure avec scatter_mapbox pour bénéficier du fond cartographique SIG
-        fig = px.scatter_mapbox(
+        fig = px.scatter_map(
             geo_f,
             lat="lat",
             lon="lon",
