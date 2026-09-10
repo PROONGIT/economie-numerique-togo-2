@@ -170,8 +170,8 @@ TR = {
         "en": "**Current selection analysis** — of the **{n_pref} selected prefectures**, **{n_zero} have no operator agency at all**, representing **{pop_zero} inhabitants** with no physical point of sale in their territory ({pct_zero}% of the selected population). — **Objective 3**: cross-reference infrastructure location with population density by subdivision.",
     },
     "density_gran_note": {
-        "fr": "ℹ️ Cette page utilise toujours le niveau **préfecture**, seul niveau infra-régional où la population (RGPH-5) est connue — le filtre de granularité n'affecte que les pages Carte, Mobile Money et Couverture.",
-        "en": "ℹ️ This page always uses the **prefecture** level, the only sub-regional level where population (census) is known — the granularity filter only affects the Map, Mobile Money and Coverage pages.",
+        "fr": "ℹ️ Cette page utilise toujours le niveau **préfecture**, seul niveau infra-régional où la population (RGPH-5) est connue — le filtre de granularité n'affecte que les pages Agences & Datacenters, Mobile Money et Couverture & Zones blanches.",
+        "en": "ℹ️ This page always uses the **prefecture** level, the only sub-regional level where population (census) is known — the granularity filter only affects the Agencies & Datacenters, Mobile Money and Coverage & Dead zones pages.",
     },
 
     "coverage_dynamic_insight": {
