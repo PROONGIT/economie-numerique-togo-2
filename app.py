@@ -315,7 +315,7 @@ elif page == "density":
     else:
         fig = px.scatter(agg_pref, x="population", y="nb_agences", size="nb_agents_mobile_money",
                           color="region", hover_name="prefecture", size_max=45,
-                          color_discrete_sequence=[T["green"], T["yellow"], T["red"], T["accent"], "#7E57C2"])
+                          color_discrete_sequence=[T["green"], T["yellow"], T["red"], "#1E88E5", "#7E57C2"])
         fig.update_layout(**PLOT_KW, height=520)
         st.plotly_chart(fig, width='stretch')
     how_to_read(t("scatter_how_what", lang), t("scatter_how_shows", lang))
