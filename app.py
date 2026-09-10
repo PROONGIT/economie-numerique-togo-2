@@ -342,24 +342,6 @@ elif page == "coverage":
 
     st.markdown("###")
     st.markdown(f"##### {t('coverage_map_title', lang)}")
-    """
-    if geo_f.empty:
-        st.warning(t("all", lang))
-    else:
-        namecol = LEVEL_COLS[sel_gran][-1]
-        px_fig = px.scatter(geo_f, x="lon", y="lat", color="nb_agents_mm", size="nb_agents_mm",
-                             hover_name=namecol, hover_data={"nb_agences": True, "lat": False, "lon": False},
-                             color_continuous_scale=["#D21034", T["yellow"], T["green"]], size_max=22)
-        fig = go.Figure()
-        for tr in region_context_traces():
-            fig.add_trace(tr)
-        for tr in px_fig.data:
-            fig.add_trace(tr)
-        fig.update_layout(px_fig.layout)
-        fig = plain_map_layout(fig, 580)
-        fig.update_layout(showlegend=False)
-        st.plotly_chart(fig, width='stretch')
-        """
     
     if geo_f.empty:
         st.warning(t("all", lang))
