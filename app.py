@@ -342,6 +342,7 @@ elif page == "coverage":
 
     st.markdown("###")
     st.markdown(f"##### {t('coverage_map_title', lang)}")
+    """
     if geo_f.empty:
         st.warning(t("all", lang))
     else:
@@ -358,6 +359,43 @@ elif page == "coverage":
         fig = plain_map_layout(fig, 580)
         fig.update_layout(showlegend=False)
         st.plotly_chart(fig, width='stretch')
+        """
+    
+    if geo_f.empty:
+        st.warning(t("all", lang))
+    else:
+        # Colonne de nom selon la granularité choisie
+        namecol = LEVEL_COLS[sel_gran][-1]
+    
+        # Création de la figure avec scatter_mapbox pour bénéficier du fond cartographique SIG
+        fig = px.scatter_mapbox(
+            geo_f,
+            lat="lat",
+            lon="lon",
+            color="nb_agents_mm",
+            size="nb_agents_mm",
+            hover_name=namecol,
+            hover_data={"nb_agences": True, "lat": False, "lon": False},
+            color_continuous_scale=["#D21034", T["yellow"], T["green"]],
+            size_max=22,
+            zoom=5.8
+        )
+    
+        # Mise en forme du fond cartographique standard
+        fig.update_layout(
+            map=dict(
+                style=T["map_style"],   # style défini dans vos paramètres (ex: "carto-positron", "open-street-map")
+                center=dict(lat=8.6, lon=1.0)  # centre du Togo
+            ),
+            height=580,
+            margin=dict(l=0, r=0, t=0, b=0),
+            showlegend=False,
+            **PLOT_KW
+        )
+    
+        # Affichage dans Streamlit
+        st.plotly_chart(fig, width='stretch')
+
     how_to_read(t("coverage_how_what", lang), t("coverage_how_shows", lang))
 
     # ---- Analyse dynamique liée à l'objectif 4 ----
