@@ -161,7 +161,7 @@ TR = {
     },
     "mm_above_national_txt": {
         "fr": " Et **{pct}% des {level}s** de la sélection ont un taux ≥ à la moyenne nationale ({national_rate}).",
-        "en": " And **{pct}%** of the {level}s** in the selection have a rate ≥ the national average ({national_rate}).",
+        "en": " And **{pct}% of the {level}s** in the selection have a rate ≥ the national average ({national_rate}).",
     },
     
     "mm_no_pop_note": {
