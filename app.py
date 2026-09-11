@@ -256,7 +256,7 @@ elif page == "mm":
             op_counts = mm_f["operateur"].value_counts().reset_index()
             op_counts.columns = ["operateur", "count"]
             fig = px.pie(op_counts, names="operateur", values="count", hole=0.5,
-                         color_discrete_sequence=[T["green"], T["yellow"], T["red"], "#7E57C2")
+                         color_discrete_sequence=[T["green"], T["yellow"], T["red"], "#7E57C2"])
             fig.update_layout(**PLOT_KW, height=380)
             st.plotly_chart(fig, width='stretch')
     with c2:
