@@ -64,10 +64,10 @@ TR = {
     "map_title": {"fr": "Répartition spatiale des agences Moov + Togocom et des datacenters", "en": "Spatial distribution of Moov + Togocom agencies and datacenters"},
     "map_intro": {"fr": "Chaque point représente une agence (Moov ou Togocom) ou un datacenter. CANAL+ et Canalbox n'ont aucune agence géoréférencée dans ce jeu de données ouvertes - un vide de données, pas une absence réelle. Utilisez les filtres pour sélectionner un opérateur ou une région. Les sites web officiels de CANAL+ et Canalbox (respectivement https://subscribe.canalplus.com/tg/boutiques-canal et https://www.canalbox.tg/nos-boutiques/) montrent la répartition de leurs boutiques sur le territoire. En outre, les agences/franchises de Moov et Togocom dans les préfectures des Lacs, Vo, Wawa, Est-Mono, Danyi, Amou et Akébou ne figurent pas dans ces données ouvertes (https://moov-africa.tg/nos-agences/ et https://shop.yas.tg/fr/agencies).",
                   "en": "Each point represents an agency (Moov or Togocom) or a datacenter. CANAL+ and Canalbox have no geo-referenced agency in this open dataset — a data gap, not a real absence. Use the filters to select an operator or region. The official websites of CANAL+ and Canalbox (respectively https://subscribe.canalplus.com/tg/boutiques-canal and https://www.canalbox.tg/nos-boutiques/) show the apportionment of their stores in the country. Furthermore, the agencies/franchises of Moov/Togocom in the prefectures of Lacs, Vo, Wawa, Est-Mono, Danyi, Amou and Akébou don't show up in these open data (https://moov-africa.tg/nos-agences/ and https://shop.yas.tg/fr/agencies)."},
-    "map_how_what": {"fr": "Carte de points géolocalisés des agences Moov (bleu), Togocom (orange) et des datacenters (rouge, triangle).",
-                      "en": "Geolocated point map of Moov agencies (blue), Togocom agencies (orange) and datacenters (red triangle)."},
-    "map_how_shows": {"fr": "La forte concentration des points autour de Lomé et le long de l'axe Sud, contrastant avec la rareté des points au Nord (Savanes, Kara).",
-                       "en": "The strong concentration of points around Lomé and along the southern corridor, contrasting with sparse points in the North (Savanes, Kara)."},
+    "map_how_what": {"fr": "Carte de points géolocalisés des agences Moov (bleu), Togocom (orange) et des datacenters (étoile).",
+                      "en": "Geolocated point map of Moov agencies (blue), Togocom agencies (orange) and datacenters (star)."},
+    "map_how_shows": {"fr": "La forte concentration des points autour de Lomé et dans la région Maritime, contrastant avec la rareté des points au Nord (Savanes).",
+                       "en": "The strong concentration of points around Lome and in the Maritime region, contrasting with sparse points in the North (Savanes)."},
     "table_agences_pref": {"fr": "Agences et datacenters par préfecture", "en": "Agencies and datacenters by prefecture"},
 
     # --- Mobile money tab ---
@@ -143,8 +143,8 @@ TR = {
     "objective_tag": {"fr": "🎯 Objectif {n}", "en": "🎯 Objective {n}"},
 
     "map_dynamic_insight": {
-        "fr": "**Analyse de la sélection actuelle** — avec les filtres en cours (régions : {regions} · opérateur(s) : {ops}), on dénombre **{nb_ag} agences** ({nb_moov} Moov + {nb_togocom} Togocom) et **{nb_dc} datacenter(s)**, réparti(e)s sur {n_units} {level}(s) dans le tableau ci-dessous. {concentration} — **Objectif 1** : cartographier la répartition spatiale des agences opérateurs et des centres de données.",
-        "en": "**Current selection analysis** — with active filters (regions: {regions} · operator(s): {ops}), there are **{nb_ag} agencies** ({nb_moov} Moov + {nb_togocom} Togocom) and **{nb_dc} datacenter(s)**, spread across {n_units} {level}(s) in the table below. {concentration} — **Objective 1**: map the spatial distribution of operator agencies and data centers.",
+        "fr": "**Analyse de la sélection actuelle** — avec les filtres en cours (régions : {regions} · opérateur(s) : {ops}), on dénombre **{nb_ag} agences** ({nb_moov} Moov + {nb_togocom} Togocom) et **{nb_dc} datacenter(s)**, réparti(e)s sur {n_units} {level}(s) dans le tableau ci-dessous. {concentration} — **Les 6 préfectures de Tandjoare, Kpendjal, Kpendjal-Ouest, Binah, Mô et Akébou ont 0 agence Moov/Togocom**.",
+        "en": "**Current selection analysis** — with active filters (regions: {regions} · operator(s): {ops}), there are **{nb_ag} agencies** ({nb_moov} Moov + {nb_togocom} Togocom) and **{nb_dc} datacenter(s)**, spread across {n_units} {level}(s) in the table below. {concentration} — **The 6 prefectures of Tandjoare, Kpendjal, Kpendjal-West, Binah, Mô and Akebou have 0 Moov/Togocom agency**.",
     },
     "map_concentration_txt": {
         "fr": "La région {top_region} concentre à elle seule {top_pct}% des agences sélectionnées",
