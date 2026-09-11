@@ -107,36 +107,37 @@ TR = {
 
     # --- Recommendations ---
     "reco_title": {"fr": "Recommandations stratégiques", "en": "Strategic recommendations"},
-    "reco_intro": {"fr": "7 recommandations concrètes, organisées autour des 5 objectifs du diagnostic, pour étendre la connectivité et l'inclusion numérique.",
-                   "en": "7 concrete recommendations, organized around the diagnostic's 5 objectives, to expand connectivity and digital inclusion."},
+    "reco_intro": {"fr": "7 recommandations stratégiques et pragmatiques, fondées sur le diagnostic pour étendre la connectivité et l'inclusion numérique.",
+                   "en": "7 strategic and actionable recommendations, based on the diagnostic to expand connectivity and digital inclusion."},
 
-    "reco1_title": {"fr": "1. Déployer des agences dans les 12 préfectures à 0 agence", "en": "1. Roll out agencies in the 12 prefectures with zero agencies"},
-    "reco1_body": {"fr": "Lacs, Vo, Est-Mono, Tandjoaré… cumulent 1,45M d'habitants sans point de vente. Ouvrir en priorité 1 agence dans les 4 préfectures les plus peuplées (Lacs, Vo, Est-Mono, Tandjoaré, >130k hab. chacune) d'ici 12 à 24 mois, puis les 8 restantes.",
-                   "en": "Lacs, Vo, Est-Mono, Tandjoaré… together have 1.45M inhabitants with no sales point. Prioritize opening 1 agency in the 4 most populous prefectures (Lacs, Vo, Est-Mono, Tandjoaré, >130k inhabitants each) within 12-24 months, then the remaining 8."},
+    "reco1_title": {"fr": "1. Déployer sans attendre des agences dans les préfectures à 0 agence", "en": "1. Roll out with no delay agencies in the prefectures with zero agencies"},
+    "reco1_body": {"fr": "Ouvrir en priorité et urgemment au moins 1 agence dans les préfectures les plus peuplées parmi les 6 n'ayant pas d'agence en 2026 (Tandjoaré, Est-Mono et Kpendjal-Ouest ont chacune plus de 120.000 d'hab.), puis les 3 restantes (Kpendjal, Akébou et Binah).",
+                   "en": "Open in priority and urgently at least 1 agency in the most populated prefectures among the 6 ones that have no agency in 2026 (Tandjoare, Est-Mono and Kpendjal-West have each more than 120,000 inhabitants), then in the 3 remaining ones (Kpendjal, Akebou and Binah)."},
 
-    "reco2_title": {"fr": "2. Décentraliser l'infrastructure de données", "en": "2. Decentralize data infrastructure"},
-    "reco2_body": {"fr": "Les 3 datacenters du pays sont tous à Lomé. Étudier l'implantation d'un site secondaire à Kara ou Sokodé pour réduire la latence Nord et le risque de coupure nationale en cas d'incident dans la capitale.",
+    "reco2_title": {"fr": "2. Etendre le réseau", "en": "2. Certify mobile money agents as digital relays"},
+    "reco2_body": {"fr": "100% des cantons ont un agent mobile money contre 12% pour les agences. Dans les zones sans agence, former ces agents à des services de base (inscription SIM, sensibilisation, support niveau 1) via un kit et une commission incitative.",
+                   "en": "100% of cantons have a mobile money agent versus 12% for agencies. In areas without an agency, train these agents on basic services (SIM registration, awareness, level-1 support) via a starter kit and incentive commission."},
+    
+    "reco3_title": {"fr": "3. Décentraliser les infrastructures de données", "en": "3. Decentralize data infrastructures"},
+    "reco3_body": {"fr": "Les 3 datacenters du pays sont tous à Lomé. Étudier l'implantation d'un site secondaire à Kara ou Sokodé pour réduire la latence Nord et le risque de coupure nationale en cas d'incident dans la capitale.",
                    "en": "The country's 3 datacenters are all in Lomé. Study a secondary site in Kara or Sokodé to reduce northern latency and the risk of a nationwide outage from an incident in the capital."},
 
-    "reco3_title": {"fr": "3. Renforcer le maillage mobile money là où il est le plus faible", "en": "3. Strengthen the mobile money network where it is weakest"},
-    "reco3_body": {"fr": "La région Plateaux (18,8 agents/10 000 hab.) et les préfectures Kpendjal (4,6) et Mô (6,1) sont nettement sous la moyenne nationale (24,4). Objectif : campagne de recrutement d'agents pour les rapprocher de cette moyenne d'ici 18 mois.",
-                   "en": "The Plateaux region (18.8 agents/10,000 inhab.) and the Kpendjal (4.6) and Mô (6.1) prefectures are well below the national average (24.4). Goal: an agent recruitment drive to close this gap within 18 months."},
+    "reco4_title": {"fr": "4. Mettre à jour les données télécom", "en": "4. Update the telecommunication data"},
+    "reco4_body": {"fr": "Recenser et enregistrer dans les bases de données la totalité des agences de tous les opérateurs télécom (Moov, Yas, Canal+, Canalbox) ainsi que les agents mobile money.",
+                   "en": "Identify and record in the databases the whole of the agencies of all telecom operators (Moov, Yas, Canal+, Canalbox) as well as mobile money agents.."},
 
-    "reco4_title": {"fr": "4. Certifier les agents mobile money comme relais numériques", "en": "4. Certify mobile money agents as digital relays"},
-    "reco4_body": {"fr": "100% des cantons ont un agent mobile money contre 12% pour les agences. Dans les zones sans agence, former ces agents à des services de base (inscription SIM, sensibilisation, support niveau 1) via un kit et une commission incitative.",
-                   "en": "100% of cantons have a mobile money agent versus 12% for agencies. In areas without an agency, train these agents on basic services (SIM registration, awareness, level-1 support) via a starter kit and incentive commission."},
+    "reco5_title": {"fr": "5. Renforcer le maillage mobile money là où il est le plus faible", "en": "5. Strengthen the mobile money network where it is the weakest"},
+    "reco5_body": {"fr": "Lancer une campagne de recrutement d'agents mobile money pour amener les zones à faibles taux moyens d'agents/habitants à avoisinner le taux  moyen national de 24.4 agents pour 10.000 habitants. Prioriser les préfectures qui sont nettement sous la moyenne nationale de 24.4 (Kpendjal 4.6, Blitta 5.51, Mô 6, Moyen-Mono 8.95, Yoto 9.15 , etc), notamment dans les régions Plateaux (18.8 agents/10 000 hab.) et Savanes (23.43 agents/10 000 hab.). Renforcer la capacité des agents mobile money en des services de base (inscription SIM, sensibilisation, support niveau 1).",
+                   "en": "Launch a mobile money agents recruitment campaign to help the areas with weak rates of agents/inhabitants to get close to the national rate of 24.4 agents per 10,000 inhabitants. Prioritize the prefectures which are far below the national rate of 24.4 (Kpendjal 4.6, Blitta 5.51, Mô 6, Moyen-Mono 8.95, Yoto 9.15 , etc), mainly in the regions of Plateaux (18.8 agents/10,000 inhab.) and Savanes (23.43 agents/10,000 inhab.). Empower the mobile money agents with skills in basic services (SIM registration, awareness, level-1 support)."},
 
-    "reco5_title": {"fr": "5. Prioriser les investissements avec un indice objectif", "en": "5. Prioritize investment with an objective index"},
-    "reco5_body": {"fr": "Combiner, pour chaque préfecture, population et déficit d'agences/agents en un indice de priorité unique. L'utiliser pour arbitrer, de façon transparente et réplicable, les 10 prochaines implantations plutôt qu'un choix au cas par cas.",
-                   "en": "Combine, for each prefecture, population and agency/agent deficit into a single priority index. Use it to arbitrate, transparently and repeatably, the next 10 rollouts rather than case-by-case choices."},
-
-    "reco6_title": {"fr": "6. Lancer une remontée communautaire du signal", "en": "6. Launch community-based signal reporting"},
-    "reco6_body": {"fr": "En attendant une donnée de couverture officielle, déployer un dispositif léger (SMS/USSD) dans les 12 préfectures sans agence pour que les usagers signalent la qualité du signal et cartographier les zones blanches réelles à court terme.",
-                   "en": "While waiting for official coverage data, deploy a lightweight SMS/USSD tool in the 12 prefectures without an agency so users can report signal quality, mapping actual dead zones in the short term."},
+    "reco6_title": {"fr": "6. Encourager une remontée communautaire sur la qualité du signal", "en": "6. Encourage a community-based signal quality reporting"},
+    "reco6_body": {"fr": "Promouvoir le retour client (comme les campagnes de l'ARCEP) pour que les usagers puissent signaler la qualité du signal et contribuer à cartographier la couverture réseau et les zones blanches réelles ou à faible signal.",
+                   "en": "Promote customer feedback (similar to ARCEP campaigns) so that users can report signal quality and help map the network coverage and the actual dead zones or weak signal areas."},
 
     "reco7_title": {"fr": "7. Publier une carte de couverture réseau ouverte", "en": "7. Publish an open network coverage map"},
-    "reco7_body": {"fr": "Nouer un partenariat avec l'ARCEP Togo et les opérateurs pour publier des données réelles de couverture 2G/3G/4G en open data — la condition de fond pour remplacer le proxy agences par une vraie carte des zones blanches.",
-                   "en": "Establish a partnership with ARCEP Togo and operators to publish real 2G/3G/4G coverage data as open data — the fundamental condition to replace the agency proxy with a real dead-zone map."},
+    "reco7_body": {"fr": "Travailler en partenariat avec l'ARCEP Togo et les opérateurs pour publier des données réelles de couverture 2G/3G/4G/5G en données ouvertes — la condition de fond pour surpasser l'indicateur proxy agents mobile money et élaborer une meilleure cartographie de la couverture réseau et des zones blanches.",
+                   "en": "Work in partnership with ARCEP Togo and operators to publish real 2G/3G/4G/5G coverage data as open data — the fundamental condition to surpass the mobile money agent proxy indicator and better map the network coverage and the dead zones."},
+    
     "gran_label_of": {"fr": "par {level}", "en": "by {level}"},
     "operators_all": {"fr": "tous", "en": "all"},
     "table_title_dynamic": {"fr": "Agences, agents mobile money et datacenters — {level}", "en": "Agencies, mobile money agents and datacenters — {level}"},
