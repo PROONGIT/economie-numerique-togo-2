@@ -114,9 +114,9 @@ TR = {
     "reco1_body": {"fr": "Ouvrir en priorité et urgemment au moins 1 agence dans les préfectures les plus peuplées parmi les 6 n'ayant pas d'agence en 2026 (Tandjoaré, Est-Mono et Kpendjal-Ouest ont chacune plus de 120.000 d'hab.), puis les 3 restantes (Kpendjal, Akébou et Binah).",
                    "en": "Open in priority and urgently at least 1 agency in the most populated prefectures among the 6 ones that have no agency in 2026 (Tandjoare, Est-Mono and Kpendjal-West have each more than 120,000 inhabitants), then in the 3 remaining ones (Kpendjal, Akebou and Binah)."},
 
-    "reco2_title": {"fr": "2. Etendre le réseau", "en": "2. Certify mobile money agents as digital relays"},
-    "reco2_body": {"fr": "100% des cantons ont un agent mobile money contre 12% pour les agences. Dans les zones sans agence, former ces agents à des services de base (inscription SIM, sensibilisation, support niveau 1) via un kit et une commission incitative.",
-                   "en": "100% of cantons have a mobile money agent versus 12% for agencies. In areas without an agency, train these agents on basic services (SIM registration, awareness, level-1 support) via a starter kit and incentive commission."},
+    "reco2_title": {"fr": "2. Etendre le réseau sur les zones blanches", "en": "2. Extend the network to the dead zones"},
+    "reco2_body": {"fr": "Œuvrer pour atteindre 100% de couverture réseau 4G/5G sur tout le territoir national. Prioriser les zones blanches et améliorer la qualité de service dans les zones déjà couvertes.",
+                   "en": "Work toward achieving 100% of 4G/5G network coverage nationwide. Prioritize dead zones and improve the quality of service in already covered areas."},
     
     "reco3_title": {"fr": "3. Décentraliser les infrastructures de données", "en": "3. Decentralize data infrastructures"},
     "reco3_body": {"fr": "Les 3 datacenters du pays sont tous à Lomé. Étudier l'implantation d'un site secondaire à Kara ou Sokodé pour réduire la latence Nord et le risque de coupure nationale en cas d'incident dans la capitale.",
