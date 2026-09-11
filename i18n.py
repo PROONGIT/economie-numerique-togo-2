@@ -74,10 +74,10 @@ TR = {
     "mm_title": {"fr": "Couverture des agents mobile money et adéquation à la population", "en": "Mobile money agent coverage and population fit"},
     "mm_intro": {"fr": "Le mobile money est le canal d'accès numérique le plus décentralisé du pays. Cette section évalue son adéquation avec la répartition de la population.",
                  "en": "Mobile money is the country's most decentralized digital access channel. This section assesses its fit with population distribution."},
-    "mm_by_operator": {"fr": "Répartition des agents par opérateur pris en charge", "en": "Agent breakdown by operator supported"},
+    "mm_by_operator": {"fr": "Répartition des agents par opérateur pris en charge", "en": "Distribution of agents by supported operator"},
     "mm_rate_title": {"fr": "Agents mobile money pour 10 000 habitants, par préfecture", "en": "Mobile money agents per 10,000 inhabitants, by prefecture"},
-    "mm_how_what": {"fr": "Graphique en barres du nombre d'agents mobile money rapporté à la population (pour 10 000 habitants), par préfecture.",
-                     "en": "Bar chart of mobile money agents per population (per 10,000 inhabitants), by prefecture."},
+    "mm_how_what": {"fr": "A gauche, un diagramme en secteurs de la répartition des agents par opérateur pris en charge. A droite, un graphique en barres du nombre d'agents mobile money rapporté à la population (pour 10 000 habitants), par préfecture.",
+                     "en": "At the left, a pie chart of the distribution of agents by supported operator. At the right, a bar chart of mobile money agents per population (per 10,000 inhabitants), by prefecture."},
     "mm_how_shows": {"fr": "Les préfectures où le taux de couverture est le plus faible relativement à leur population — cibles prioritaires pour renforcer le réseau d'agents.",
                       "en": "The prefectures with the lowest coverage rate relative to their population — priority targets to strengthen the agent network."},
 
