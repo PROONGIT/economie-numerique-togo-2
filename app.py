@@ -407,13 +407,6 @@ elif page == "reco":
     st.markdown(t("reco_intro", lang))
     st.markdown("###")
 
-    # cols = st.columns(2)
-    # recos = [(f"reco{i}_title", f"reco{i}_body") for i in range(1, 8)]
-    # for i, (title_k, body_k) in enumerate(recos):
-        # with cols[i % 2]:
-            # st.markdown(f"""<div class="reco-card"><h4>{t(title_k, lang)}</h4><p>{t(body_k, lang)}</p></div>""",
-                        # unsafe_allow_html=True)
-
     recos = [(f"reco{i}_title", f"reco{i}_body") for i in range(1, 8)]
     for i, (title_k, body_k) in enumerate(recos):
         st.markdown(f"""<div class="reco-card"><h4>{t(title_k, lang)}</h4><p>{t(body_k, lang)}</p></div>""",
