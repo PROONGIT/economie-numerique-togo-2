@@ -152,8 +152,8 @@ TR = {
     },
 
     "mm_dynamic_insight": {
-        "fr": "**Analyse de la sélection actuelle** — le taux moyen s'établit à {rate} agents pour 10 000 habitants (**national : {national_rate}**) pour la sélection et pour {nb_mm} agents recensés. **{gap_txt}**{above_national_txt} — **Objectif 2** : analyser la couverture des services numériques (mobile money) et son adéquation avec la population.",
-        "en": "**Current selection analysis** — the average rate is {rate} agents per 10,000 inhabitants (**national: {national_rate}**) for the selection and for {nb_mm} agents recorded. **{gap_txt}**{above_national_txt} — **Objective 2**: analyze mobile money service coverage and its fit with population.",
+        "fr": "**Analyse de la sélection actuelle** — le taux moyen s'établit à {rate} agents pour 10 000 habitants (**national : {national_rate}**) pour la sélection et pour {nb_mm} agents recensés. **{gap_txt}**{above_national_txt} **100% des cantons** ont accès aux services numériques. Selon l'ARCEP (https://arcep.tg/observatoire-2/le-secteur-en-chiffres/), **81.08% de la population sont abonnés à la téléphonie mobile en 2022**. Par ailleurs, une carte de la couverture réseau mobile 3G, 4G, 5G de Moov et Togocom/Yas donnerait plus de détails (https://www.nperf.com/fr/map/TG/-/-/signal).",
+        "en": "**Current selection analysis** — the average rate is {rate} agents per 10,000 inhabitants (**national: {national_rate}**) for the selection and for {nb_mm} agents recorded. **{gap_txt}**{above_national_txt} **100% of the cantons** have access to digital services. According to ARCEP (https://arcep.tg/observatoire-2/le-secteur-en-chiffres/), **81.08% of the population had a mobile telephony subscription in 2022**. Whereas, a map of the mobile network 3G, 4G, 5G coverage would give more details (https://www.nperf.com/fr/map/TG/-/-/signal).",
     },
     "mm_gap_txt": {
         "fr": "L'écart entre {min_reg} ({min_rate}) et {max_reg} ({max_rate}) montre un déséquilibre net entre territoires.",
