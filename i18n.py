@@ -152,12 +152,18 @@ TR = {
     },
 
     "mm_dynamic_insight": {
-        "fr": "**Analyse de la sélection actuelle** — le taux moyen s'établit à {rate} agents pour 10 000 habitants sur le plan national (**national : {national_rate}**), pour {nb_mm} agents recensés. **{gap_txt}** — **Objectif 2** : analyser la couverture des services numériques (mobile money) et son adéquation avec la population.",
-        "en": "**Current selection analysis** — the average rate is {rate} agents per 10,000 inhabitants nationwide (**national: {national_rate}**), for {nb_mm} agents recorded. **{gap_txt}** — **Objective 2**: analyze mobile money service coverage and its fit with population.",
+        "fr": "**Analyse de la sélection actuelle** — le taux moyen s'établit à {rate} agents pour 10 000 habitants (**national : {national_rate}**) pour la sélection et pour {nb_mm} agents recensés. **{gap_txt}**{above_national_txt} — **Objectif 2** : analyser la couverture des services numériques (mobile money) et son adéquation avec la population.",
+        "en": "**Current selection analysis** — the average rate is {rate} agents per 10,000 inhabitants (**national: {national_rate}**) for the selection and for {nb_mm} agents recorded. **{gap_txt}**{above_national_txt} — **Objective 2**: analyze mobile money service coverage and its fit with population.",
     },
-    "mm_gap_txt": {"fr": "L'écart entre {min_reg} ({min_rate}) et {max_reg} ({max_rate}) montre un déséquilibre net entre territoires",
-                   "en": "The gap between {min_reg} ({min_rate}) and {max_reg} ({max_rate}) shows a clear imbalance between territories",
+    "mm_gap_txt": {
+        "fr": "L'écart entre {min_reg} ({min_rate}) et {max_reg} ({max_rate}) montre un déséquilibre net entre territoires.",
+        "en": "The gap between {min_reg} ({min_rate}) and {max_reg} ({max_rate}) shows a clear imbalance between territories.",
     },
+    "mm_above_national_txt": {
+        "fr": " Et **{pct}% des {level}s** de la sélection ont un taux ≥ à la moyenne nationale ({national_rate}).",
+        "en": " And **{pct}%** of the {level}s** in the selection have a rate ≥ the national average ({national_rate}).",
+    },
+    
     "mm_no_pop_note": {
         "fr": "ℹ️ La population n'est connue qu'au niveau **préfecture** ou **région** (RGPH-5). Au niveau {level}, le graphique ci-dessous affiche donc un **nombre brut d'agents** plutôt qu'un taux pour 10 000 habitants.",
         "en": "ℹ️ Population is only known at the **prefecture** or **region** level (census). At {level} level, the chart below therefore shows a **raw agent count** rather than a rate per 10,000 inhabitants.",
