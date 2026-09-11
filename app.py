@@ -287,12 +287,13 @@ elif page == "mm":
     rate = round(nb_mm / tot_pop_sel * 10000, 1) if tot_pop_sel else 0
     national_rate = round(kpis["nb_agents_mobile_money"] / kpis["population_totale"] * 10000, 1)
     gap_txt = ""
-    if len(agg_region) > 1:
-        r = agg_region.dropna(subset=["agents_mm_pour_10k_hab"]).sort_values("agents_mm_pour_10k_hab")
+    if sel_gran in ("region", "prefecture") and agg["population"].notna().any():
+        namecol = LEVEL_COLS[sel_gran][-1]
+        r = agg.dropna(subset=["agents_mm_pour_10k_hab"]).sort_values("agents_mm_pour_10k_hab")
         if len(r) > 1:
             gap_txt = t("mm_gap_txt", lang).format(
-                min_reg=r.iloc[0]["region"], min_rate=r.iloc[0]["agents_mm_pour_10k_hab"],
-                max_reg=r.iloc[-1]["region"], max_rate=r.iloc[-1]["agents_mm_pour_10k_hab"],
+                min_reg=r.iloc[0][namecol], min_rate=r.iloc[0]["agents_mm_pour_10k_hab"],
+                max_reg=r.iloc[-1][namecol], max_rate=r.iloc[-1]["agents_mm_pour_10k_hab"],
             )
     analysis_box(t("mm_dynamic_insight", lang).format(rate=rate, national_rate=national_rate, nb_mm=nb_mm, gap_txt=gap_txt))
 
